@@ -1,0 +1,17 @@
+name: sdl_test
+version: 0.1.0
+
+authors:
+  - Dan Vu <davu@mir-robots.com>
+
+targets:
+  sdl_test:
+    main: src/sdl_test.cr
+
+dependencies:
+    sdl:
+        github: ysbaddaden/sdl.cr
+
+crystal: 1.3.2
+
+license: MIT
